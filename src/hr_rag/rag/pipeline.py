@@ -11,4 +11,5 @@ class RagPipeline:
         answer_text = self._generator.generate(question, chunks)
         return {
             "answer": answer_text,
+            "sources": chunks,
         }
