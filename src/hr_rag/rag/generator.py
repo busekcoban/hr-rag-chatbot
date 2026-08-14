@@ -1,7 +1,6 @@
 from google import genai
 from google.genai import types
 
-
 SYSTEM_INSTRUCTION = (
     "Act like a HR Policy Assistant. Answer only based on the document excerpts provided to you. "
     "If the answer is not in the documents, say so clearly instead of guessing."

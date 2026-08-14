@@ -1,5 +1,7 @@
 from pathlib import Path
+
 from pypdf import PdfReader
+
 
 def load_file(file_path: Path) -> str:
     reader = PdfReader(file_path)

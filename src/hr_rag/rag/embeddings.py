@@ -1,5 +1,6 @@
 from google import genai
 
+
 class GeminiEmbedder:
     def __init__(self,api_key:str,model = "gemini-embedding-001"):
         self._client = genai.Client(api_key=api_key)

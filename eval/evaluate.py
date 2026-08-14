@@ -8,10 +8,10 @@ from hr_rag.config import settings
 from hr_rag.ingestion.document_loader import load_all_documents
 from hr_rag.rag.chunking import chunk_documents
 from hr_rag.rag.embeddings import GeminiEmbedder
-from hr_rag.rag.vector_store import ChromaVectorStore
-from hr_rag.rag.retriever import HybridRetriever
 from hr_rag.rag.generator import GeminiGenerator
 from hr_rag.rag.pipeline import RagPipeline
+from hr_rag.rag.retriever import HybridRetriever
+from hr_rag.rag.vector_store import ChromaVectorStore
 
 
 def load_golden_set(path: str) -> list[dict]:

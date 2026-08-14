@@ -1,5 +1,6 @@
 from hr_rag.rag.pipeline import RagPipeline
 
+
 class FakeRetriever:
     def __init__(self, chunks):
         self._chunks = chunks

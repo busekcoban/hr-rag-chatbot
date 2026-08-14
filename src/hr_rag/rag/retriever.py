@@ -1,5 +1,6 @@
 from rank_bm25 import BM25Okapi
 
+
 class HybridRetriever:
     def __init__(self, vector_store, embedder, all_chunks: list[dict]):
         self._vector_store = vector_store

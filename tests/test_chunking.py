@@ -1,4 +1,5 @@
-from hr_rag.rag.chunking import chunk_text, chunk_documents
+from hr_rag.rag.chunking import chunk_documents, chunk_text
+
 
 def test_short_text_is_a_single_chunk():
     text = "This is a short text."

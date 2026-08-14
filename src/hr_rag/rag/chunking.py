@@ -1,4 +1,6 @@
-def chunk_text(text:str,chunk_size: int=800, chunk_overlap: int =120) -> list[str]:
+def chunk_text(text:str,chunk_size: int=800,
+               chunk_overlap: int =120)\
+        -> list[str]:
     words = text.split()
     chunks = []
     start = 0
@@ -10,7 +12,9 @@ def chunk_text(text:str,chunk_size: int=800, chunk_overlap: int =120) -> list[st
     return chunks
 
 
-def chunk_documents(documents: list[dict],chunk_size : int = 800, chunk_overlap: int = 120) -> list[dict]:
+def chunk_documents(documents: list[dict],
+                    chunk_size : int = 800,
+                    chunk_overlap: int = 120) -> list[dict]:
     result = []
     for doc in documents:
         pieces = chunk_text(doc["text"], chunk_size, chunk_overlap)
