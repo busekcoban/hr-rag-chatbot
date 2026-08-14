@@ -121,6 +121,8 @@ Drop one or more HR policy PDFs into `data/`.
 streamlit run app.py
 ```
 
+Or you can try live demo [here.](https://hr-rag-chatbot.streamlit.app)
+
 ## Configuration
 
 All tunables live in `.env` (documented in `.env.example`):
