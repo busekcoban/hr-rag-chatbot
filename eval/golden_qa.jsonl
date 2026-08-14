@@ -1,0 +1,12 @@
+{"question": "How many days of annual leave do employees get per year?", "expected_keywords": ["20", "annual"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many paid sick leave days are employees entitled to per year?", "expected_keywords": ["10", "sick"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many days of menstrual leave can an employee take per month?", "expected_keywords": ["3", "menstrual"], "expected_source": "employee-handbook.pdf"}
+{"question": "How long is paternity leave and how much of it is paid?", "expected_keywords": ["1 year", "8 weeks", "100%"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many extra paid days off do employees with pets get per month?", "expected_keywords": ["2", "pet"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many days per week are employees expected to work from the office under the hybrid policy?", "expected_keywords": ["2", "office"], "expected_source": "employee-handbook.pdf"}
+{"question": "What is the home office stipend amount for remote work?", "expected_keywords": ["500"], "expected_source": "employee-handbook.pdf"}
+{"question": "Within how many days must an employee submit an expense reimbursement request?", "expected_keywords": ["30"], "expected_source": "employee-handbook.pdf"}
+{"question": "How long is the probation period for new hires?", "expected_keywords": ["90"], "expected_source": "employee-handbook.pdf"}
+{"question": "How often are performance reviews conducted?", "expected_keywords": [ "June", "December"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many reference checks are required at minimum during hiring?", "expected_keywords": ["2", "reference"], "expected_source": "employee-handbook.pdf"}
+{"question": "How many days of paid leave do employees get for their birthday?", "expected_keywords": ["birthday"], "expected_source": "employee-handbook.pdf"}
