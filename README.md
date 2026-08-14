@@ -16,7 +16,7 @@ and standard information-retrieval metrics (precision@k, recall@k, MRR).
 - [Configuration](#configuration)
 - [Testing](#testing)
 - [Evaluation](#evaluation)
-- [Sample questions & live demo](#sample-questions--live-demo)
+- [Sample questions](#sample-questions)
 
 ## Features
 
@@ -202,7 +202,7 @@ consistent with strong retrieval, not a sign of noise. Precision becomes a
 more informative signal once the corpus has more documents and more
 genuinely relevant chunks per question to find.
 
-## Sample questions & live demo
+## Sample questions
 
 Questions tried against the app during development, and how the system
 responded. Each answer came with a "Sources" section listing the exact
